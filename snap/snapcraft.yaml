@@ -6,7 +6,7 @@ description: |
   Communication Scaffold is a WebRTC based set of APIs which offer a simple and easy plug-and-play kind of architecture. If you are in need of a tool that can be used within your organization for collaboration among employees, then you are at the right place. These APIs can be quickly integrated with your existing dashboard.
 
 grade: stable # must be 'stable' to release into candidate/stable channels
-confinement: static # use 'strict' once you have the right plugs and slots
+confinement: strict # use 'strict' once you have the right plugs and slots
 icon: snap/gui/logo.png
 parts:
   my-part:
