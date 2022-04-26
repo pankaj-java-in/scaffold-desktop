@@ -8,9 +8,6 @@ description: |
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
 icon: snap/gui/logo.png
-architectures:
-    build-on: i386
-    run-on: [amd64, i386]
 parts:
   my-part:
     # See 'snapcraft plugins'
