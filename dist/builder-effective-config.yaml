@@ -1,0 +1,15 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.communication-scaffold.id
+productName: Oodles Messenger
+files:
+  - filter:
+      - build/**/*
+      - src/main.js
+      - package.json
+extends: null
+linux:
+  description: Communication Scaffold is a WebRTC based set of APIs which offer a simple and easy plug-and-play kind of architecture. If you are in need of a tool that can be used within your organization for collaboration among employees, then you are at the right place. These APIs can be quickly integrated with your existing dashboard.
+  icon: build/logo.png
+electronVersion: 18.0.3
