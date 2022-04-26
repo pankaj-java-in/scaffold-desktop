@@ -1,9 +1,9 @@
 version: 1.0.0
 files:
   - url: Oodles-Messenger-1.0.0.AppImage
-    sha512: NyVq5sQ86MpilByNc0Z3fJzpTD5fCYP7VCHyrSB0pFJ25ASM7cM4SMDgIlLhP+sNE/5wUBapwvKnQhdnCCN+Hg==
-    size: 112328875
-    blockMapSize: 118975
+    sha512: xWvgT7iWLnQRYt+/lWHVKI2xVGf3c3qHInpxQP2AtWzMhVywjWd6Ow6AJFGXAHfBE/eNZRgp7GzpMnhfxTXQ8Q==
+    size: 112328877
+    blockMapSize: 118977
 path: Oodles-Messenger-1.0.0.AppImage
-sha512: NyVq5sQ86MpilByNc0Z3fJzpTD5fCYP7VCHyrSB0pFJ25ASM7cM4SMDgIlLhP+sNE/5wUBapwvKnQhdnCCN+Hg==
-releaseDate: '2022-04-26T10:51:52.391Z'
+sha512: xWvgT7iWLnQRYt+/lWHVKI2xVGf3c3qHInpxQP2AtWzMhVywjWd6Ow6AJFGXAHfBE/eNZRgp7GzpMnhfxTXQ8Q==
+releaseDate: '2022-04-26T11:00:03.247Z'
