@@ -14,4 +14,4 @@ architectures:
 parts:
   my-part:
     # See 'snapcraft plugins'
-    plugin: null
+    plugin: nil
