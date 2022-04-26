@@ -1,0 +1,62 @@
+{
+  "name": "OodlesMessenger",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Oodles Technologies",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "main": "src/main.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "build-electron": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron:build": "npm run build-electron && electron-builder build --publish never"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "./",
+  "build": {
+    "appId": "com.communication-scaffold.id",
+    "productName": "Oodles Messenger",
+    "files": [
+      "build/**/*",
+      "src/main.js",
+      "package.json"
+    ],
+    "extends": null,
+    "linux": {
+      "description": "Communication Scaffold is a WebRTC based set of APIs which offer a simple and easy plug-and-play kind of architecture. If you are in need of a tool that can be used within your organization for collaboration among employees, then you are at the right place. These APIs can be quickly integrated with your existing dashboard.",
+      "icon": "build/logo.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^18.0.3",
+    "electron-builder": "^22.14.13"
+  }
+}
