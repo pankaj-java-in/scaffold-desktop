@@ -11,4 +11,4 @@ icon: snap/gui/logo.png
 parts:
   my-part:
     # See 'snapcraft plugins'
-    plugin: npm
+    plugin: null
