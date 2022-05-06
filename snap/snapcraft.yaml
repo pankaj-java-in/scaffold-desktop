@@ -16,11 +16,6 @@ architectures:
   - build-on: i386
 compression: lzo
 icon: snap/gui/logo.png
-configure-hook:
-    plugin: dump
-    source: configure-again/
-    organize:
-        configure: snap/hooks/configure
 parts:
   my-part:
     # See 'snapcraft plugins'
