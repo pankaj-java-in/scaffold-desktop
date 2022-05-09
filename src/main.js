@@ -15,7 +15,7 @@ function createWindow () {
   })
  
   // and load the index.html of the app.
-  mainWindow.loadURL('https://communication-scaffold.oodles.io/');
+  mainWindow.loadURL('https://meet.google.com/bff-rrje-pku');
   // mainWindow.webContents.openDevTools()
   app.setBadgeCount(10);
     mainWindow.on('close', e => {
